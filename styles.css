@@ -1,0 +1,70 @@
+:root {
+    --color-1: #2A4D14;
+    --color-2: #317B22;
+    --color-3: #67E0A3;
+    --color-4: #7CF0BD;
+    --color-5: #AFF9C9;
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+header {
+    text-align: center;
+    background-color: var(--color-3);
+    border: 2px var(--color-4) double;
+}
+
+/* Link Cleanup */
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: var(--color-1)
+}
+a:hover {
+    background-color: var(--color-5);
+}
+
+/* Mobile Menu Setup */
+nav {
+    display: none;
+}
+.menu li {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #317B22;
+}
+.menu li a {
+    text-decoration: none;
+    display: block;
+}
+#menu-check {
+    display: none;
+}
+#menu-check:checked~nav {
+    display: block;
+}
+.menu-icon {
+    position: absolute;
+    top: 3px;
+    left: 30px;
+    font-size: 2em;
+    cursor: wait;
+}
+
+.article{
+    margin: 5px;
+    background-color: var(--color-3);
+    border: 2px var(--color-4) double;
+}
+
+.ArticleImages{
+    text-align: center;
+    margin: auto;
+    display: none;
+}
