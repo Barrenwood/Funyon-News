@@ -68,3 +68,40 @@ nav {
     margin: auto;
     display: none;
 }
+.subhead{
+    display: none;
+}
+
+@media (min-width: 500px){
+    .subhead{
+        display: block;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: black;
+    }
+    .menu-icon{
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    .menu li{
+        display: inline-block;
+    }
+
+    .ArticleImages{
+        display:block;
+    }
+    .guy {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        background-color: red;
+    }
+}
