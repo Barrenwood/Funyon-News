@@ -79,9 +79,6 @@ nav {
 }
 
 @media (min-width: 768px){
-    body{
-        background-color: black;
-    }
     .menu-icon{
         display: none;
     }
@@ -97,6 +94,12 @@ nav {
     }
     .guy {
         display: none;
+    }
+    .subhead{
+        text-align: center;
+    }
+    .articleHeading{
+        text-align: center;
     }
 }
 
